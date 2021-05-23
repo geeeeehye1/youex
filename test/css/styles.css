@@ -10986,11 +10986,10 @@ html {
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .masthead .masthead-avatar {
-  /* width: 20rem; */
-  width:100%;
+  width: 20rem;
 }
 
 @media (min-width: 992px) {
