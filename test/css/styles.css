@@ -10979,31 +10979,34 @@ html {
 
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 26rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 .masthead .masthead-avatar {
   /* width: 20rem; */
-  width:40%;
+  width:100%;
 }
 
 @media (min-width: 992px) {
+  .masthead .masthead-avatar {
+    width:40%;
+  }
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(4rem + 104px);
+    padding-bottom: 26rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 .portfolio .portfolio-item {
